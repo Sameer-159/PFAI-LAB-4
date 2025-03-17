@@ -1,0 +1,12 @@
+matrix_A <- matrix(c(1, 2, 3, 4), nrow = 2, ncol = 2)
+transposed_A <- t(matrix_A)
+det_A <- det(matrix_A)
+inverse_A <- solve(matrix_A)
+
+cat("Original Matrix:\n")
+print(matrix_A)
+cat("\nTransposed Matrix:\n")
+print(transposed_A)
+cat("\nDeterminant of the matrix:", det_A, "\n")
+cat("\nInverse of the matrix:\n")
+print(inverse_A)
